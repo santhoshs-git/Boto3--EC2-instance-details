@@ -12,3 +12,5 @@ Boto 3 can be installed with simple comment # pip install boto3
  If u want to install it in virtual environment follow the steps mentioned in https://pypi.org/project/boto3/
 
 Configure the AWS credential using # "aws configure" command. (Make sure you have installed awscli)
+
+After configuring the aws credential and region details, just run the ec2-details.py script, it will list teh instance ID and Availability  Zone of all the available instances in the region.
